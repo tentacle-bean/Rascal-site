@@ -1,0 +1,184 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+
+background-image: url("https://www.wrbl.com/wp-content/uploads/sites/24/2021/12/WRBL3_6323.00_01_34_02.Still002.jpg?strip=1");
+    background-size: cover;
+    
+    
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Chilanka', cursive;
+}
+
+#hero {
+    background-image: url("https://www.wrbl.com/wp-content/uploads/sites/24/2021/12/WRBL3_6323.00_01_34_02.Still002.jpg?strip=1");
+    background-size: 100%;
+    background-repeat: round;
+    height:340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#page-title {
+    margin-bottom: 160px;
+    background-color: #4a4e69;
+    border-radius: 10px;
+    color: #f2e9e4;
+    font-size: 32px;
+    padding: 8px 16px 0px 16px;
+}
+
+#page-subtitle {
+    font-size: 20px;
+    width: 412px;
+    color: #c9ada7;
+    background-color: #22223b;
+    border-radius: 10px;
+    padding: 8px 10px 2px 10px;
+    text-shadow: 0 0 1px black;
+}
+
+.outline {
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+
+.picture-section {
+    background-image: linear-gradient(#c9ada7,#4a4e69);
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.rascal-pictures {
+    
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#eyes{
+    margin: 0px 0 25px 0;
+    font-size: 40px;
+}
+
+.pet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pet-pic {
+    width: 200px;
+    height: 200px;
+    background-size: 200px 200px;
+    border-radius: 50%;
+    border: 8px solid #22223b;
+}
+
+#pet-pic-1{
+    background-image: url("https://img.freepik.com/free-photo/raccoon-9-months-procyon-lotor-isolated_191971-11672.jpg?w=2000");
+    
+}
+
+#pet-pic-2{
+    background-image: url("https://media.istockphoto.com/photos/the-virginia-opossum-didelphis-virginiana-on-white-picture-id996289052?b=1&k=20&m=996289052&s=170667a&w=0&h=YKKw1JPa8cdD5jVwlkOQNRqhktEtC2uEl7lqJ1jjGTA=");
+}
+
+#pet-pic-3{
+    background-image: url("https://thewatchdog.news/wp-content/uploads/2022/05/Rat-bites.jpg");
+}
+
+#pet-pic-1:hover {
+    background-image: url("https://as2.ftcdn.net/v2/jpg/01/81/76/35/1000_F_181763596_toubBBK6B66nnhExp5p2jSmyZ8oPFi2z.jpg");
+    background-size: 600px 400px;
+    background-position: 47%;
+}
+
+#pet-pic-2:hover {
+    background-image: url("https://michiganjustice.com/wp-content/uploads/2018/04/arson.jpg");
+}
+
+#pet-pic-3:hover {
+    background-image: url("https://t2.ea.ltmcdn.com/en/posts/7/7/0/types_of_domestic_rats_77_600_square.jpg");
+    background-size: 250px 250px;
+    background-position: 90%;
+}
+
+.pet-name {
+    background-color: #f2e9e4;
+    padding: 5px 10px 0px 10px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #22223b;
+    margin-top: 225px;
+}
+
+.Richard-section {
+    background-color:#4a4e69;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.Richard {
+    display: flex;
+    background-image: url("https://decostreet.pl/userdata/public/gfx/397778/Fototapeta-Brick-wall-old-style-Rebel-Walls-1.jpg");
+    background-size: cover;
+    justify-content: center;
+    align-items: begin;
+    padding: 23px 13px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 0px #22223b;
+}
+
+#Richard-pic {
+    width:200px;
+    margin-right: 13px;
+    border-radius: 10px;
+    background-color: #f2e9e4;
+    box-shadow: 0px 0px 10px #22223b;
+}
+
+#Richard-text-section {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0 20px 20px;
+    align-items: center;
+    justify-content: begin;
+    border-radius: 10px;
+    
+}
+
+.Richard-text {
+    background-color:#c9ada7;
+    padding: 5px 8px 0 8px;
+    border-radius: 5px;
+    color: #22223b;
+    box-shadow: 0px 0px 10px #22223b;
+    text-shadow: 0px 0px 5px #f2e9e4;
+}
+
+.italic {
+    font-style: italic;
+}
+
+
